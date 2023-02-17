@@ -81,6 +81,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    border-style: none;
 }
 
 img {
@@ -100,35 +101,37 @@ img {
 
 .information-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-left: 200px;
     padding-right: 200px;
+    justify-content: center;
 }
 
 .information-header {
     display: flex;
+    flex: 1;
     font-size: 36px;
     font-weight: bolder;
     padding-top: 20px;
     justify-content: center;
 }
 
-.information {
+.card-container {
     display: flex;
     flex: 1;
-    padding: 40px;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+    padding-top: 20px;
 }
 
-.content {
+.card {
     display: flex;
-    min-width: 200px;
-    min-height: 200px;
-    background: white;
-    border-radius: 15px;
-    border: #3882F6 8px; 
     border-style: solid;
-    flex-wrap: wrap;
+    width: 120px;
+    height: 120px;
+    border-color: #3882F6;
+    border-width: 8px; 
+    border-radius: 10px;  
 }
+
