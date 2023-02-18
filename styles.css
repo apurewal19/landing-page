@@ -124,6 +124,7 @@ img {
     padding-right: 200px;
     justify-content: space-around;
     padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .card {
@@ -134,6 +135,13 @@ img {
     border-color: #3882F6;
     border-width: 6px; 
     border-radius: 10px; 
+}
+
+span {
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .quote-section {
